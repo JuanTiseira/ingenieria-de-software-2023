@@ -50,7 +50,6 @@ Enumeren los requisitos *(funcionales)* que debe tener el software para resolver
 **Base de Datos:** Se utilizará la base de datos Mysql
 
 **Tecnologías del Servidor Local:**
-- Sistema Operativo: [Especificar el sistema operativo, p. ej., Windows, Linux]
 - Servidor Web: Para desplegar el backend y el frontend se utilizara Nginx
 - Servidor de Base de Datos Local: Despliegie de base de datos Mysql
 
