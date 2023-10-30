@@ -38,7 +38,7 @@ Escriban algunas oraciones que describan cómo la solución de software resolver
 
 - Permitirá a la institución obtener estadísticas de presencialidad de manera más eficiente.
 
-- Para los alumnos, la solución propuesta permitirá acceder fácilmente a su estado en cada materia, brindando transparencia y evitando que queden en situación irregular.
+- Para los alumnos, la solución propuesta permitirá acceder fácilmente a su estado en cada materia, brindando transparencia y evitando que queden en situación irregular. 
 
 ## Requisitos
 
