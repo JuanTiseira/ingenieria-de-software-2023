@@ -1,6 +1,7 @@
 # Especificación de requisitos de software
 
 ## Enunciado del problema
+
 Escriban algunas oraciones que describan el problema que están tratando de resolver, es decir, justifiquen por qué se necesita este software.
 
 En el instituto el registro diario de asistencias se lleva de forma manual en una planilla, la cual es 
@@ -11,7 +12,8 @@ y datos que se carguen automaticamente, esto es crucial por que estos datos sirv
 Ademas cuando un alumno precisa conocer su estado en una materia, el preceptor debe buscar en el excel 
 y calcular el total de asistencias del alumno.
 
-Entonces el instuto busca facilitar el registro de los alumnos con sus datos personales y asignacion de la carrera que quieran y junto con las materias que puede cursar en base a las correlatividades de las mismas ,tambien se requiere poder hacer de manera sencilla el registro de las asistencias de cada carrera y curso(año)  asi como tambien la facilidad en obtener los informes correspondientes de los datos de los incriptos junto con las materias y asistencias del año .
+Entonces el instuto busca facilitar el registro de los alumnos con sus datos personales y asignacion de la carrera que quieran y junto con las materias que puede cursar en base a las correlatividades de las mismas ,tambien se requiere poder hacer de manera sencilla el registro de las asistencias de cada carrera y curso(año)  asi como tambien la facilidad en obtener los informes correspondientes de los datos de los incriptos junto con las materias y asistencias del año.
+
 ## Clientes potenciales
  
 ¿Quiénes están afectados por este problema y se beneficiarían de la solución propuesta? *(es decir, los usuarios potenciales del software que están por construir)*.
@@ -34,6 +36,26 @@ Escriban algunas oraciones que describan cómo la solución de software resolver
 
 Enumeren los requisitos *(funcionales)* que debe tener el software para resolver el problema mencionado anteriormente. Es útil tratar de agrupar los requisitos en los que son esenciales *(debe estar)* y los que no son esenciales *(sería bueno que estén)*.
  
-## Arquitectura de software
+## Arquitectura de Software
 
-¿Será esta una aplicación web / de escritorio / móvil *(todas o algún otro tipo)*? ¿Se ajustaría a la arquitectura de software Cliente-Servidor? ¿Qué lenguajes de programación, frameworks, bases de datos,... se utilizarán para desarrollar e implementar el software?
+**Tipo de Aplicación:** Aplicación web
+
+**Arquitectura de Software:** Cliente-Servidor
+
+**Lenguajes de Programación:** 
+- Frontend: HTML, CSS, JavaScript
+- Backend: Python, SQL
+
+**Frameworks y Bibliotecas:**
+- Frontend: React y Redux toolkit
+- Backend: Django.
+
+**Base de Datos:** Se utilizará la base de datos Mysql
+
+**Tecnologías del Servidor Local:**
+- Sistema Operativo: [Especificar el sistema operativo, p. ej., Windows, Linux]
+- Servidor Web: Para desplegar el backend y el frontend se utilizara Nginx
+- Servidor de Base de Datos Local: Despliegie de base de datos Mysql
+
+**Otros Componentes o Tecnologías Relevantes:** Si se dispone de un servidor windows se va a virtualizar con hyper-v.
+
