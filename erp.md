@@ -15,7 +15,14 @@ Entonces el instuto busca facilitar el registro de los alumnos con sus datos per
 ## Clientes potenciales
  
 ¿Quiénes están afectados por este problema y se beneficiarían de la solución propuesta? *(es decir, los usuarios potenciales del software que están por construir)*.
-el cliente potencial es el instituto en general ya que en la parte del preceptor que es quien se encarga de ir a los cursos, tomar las asistencias y verificar los datos del alumno asi como tambien en la parte del regente o administrador que es quien lleva el control general de los datos personales , asistencias que el preceptor o encargado correpondiente le devuelve, correlativas que los alumnos pueden cursar y demas.
+
+El cliente potencial es el instituto en general ya que en la parte del preceptor que es quien se encarga de ir a los cursos, tomar las asistencias y verificar los datos del alumno asi como tambien en la parte del regente o administrador que es quien lleva el control general de los datos personales , asistencias que el preceptor o encargado correpondiente le devuelve, correlativas que los alumnos pueden cursar y demas.
+
+El problema identificado afecta principalmente a los preceptores ya que ellos se encargan de confeccionar lso reportes acerca de las asistencias, que son presentados a los profesores para que conozcan que alumnos pueden rendir la materia y cuales no, ademas la estadisca de presencialidad tambien es util a nivel institucion para conocer que porcentaje de prensencialidad tiene la curricula.
+
+Ademas los Alumnos muchas veces desean conocer su estado en cierta materia 
+para no quedar irregulares.
+
 ## Solución propuesta 
 
 Escriban algunas oraciones que describan cómo la solución de software resolverá el problema descrito anteriormente.
