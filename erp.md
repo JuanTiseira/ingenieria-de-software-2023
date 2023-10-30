@@ -7,8 +7,7 @@ Escriban algunas oraciones que describan el problema que están tratando de reso
 En el instituto el registro diario de asistencias se lleva de forma manual en una planilla, la cual es 
 borrosa, no presenta ninguna informacion util para el preceptor, lo que hace que se pierda mucho tiempo
 y se dificulte el proceso. Luego estos datos de todas las planillas se vuelcan a un excel de forma
-manual,este proceso demanda mucho tiempo y es muy suceptible a errores al no tener variables normalizadas
-y datos que se carguen automaticamente, esto es crucial por que estos datos sirven para ubicar a cada alumno, frente a las correlatividades, ver el estado en que se encuentra el alumno en cada materia, informe que debe ser presentado al profesor para que conozca que alumno puede o no rendir la materia.
+manual,este proceso demanda mucho tiempo y es muy suceptible a errores al no tener variables normalizadas y datos que se carguen automaticamente, esto es crucial por que los datos sirven para ubicar a cada alumno, frente a las correlatividades, ver el estado en que se encuentra el alumno en cada materia, informe que debe ser presentado al profesor para que conozca que alumno puede o no rendir la materia.
 Ademas cuando un alumno precisa conocer su estado en una materia, el preceptor debe buscar en el excel 
 y calcular el total de asistencias del alumno.
 
@@ -29,8 +28,17 @@ para no quedar irregulares.
 
 Escriban algunas oraciones que describan cómo la solución de software resolverá el problema descrito anteriormente.
 
-- Por medio de un login de usuarios, se contará con una autenticación, para poder tener un seguimiento de quien realizó cambios en el sistema.
-- 
+- El software de gestión académica permitirá a los preceptores y administradores del instituto llevar a cabo un registro eficiente de asistencias, correlatividades y datos personales de los alumnos. 
+
+- Simplificará el proceso de registro de asistencias al proporcionar una interfaz amigable y fácil de usar para los preceptores, eliminando la necesidad de trabajar con planillas borrosas y la carga manual de datos en hojas de cálculo de Excel.
+
+- Ofrecerá la capacidad de asignar a los alumnos a sus respectivas carreras y gestionar las correlatividades de las materias de manera automática, lo que garantiza que los estudiantes puedan inscribirse en las materias adecuadas de acuerdo a su progreso académico. 
+
+- Proporcionará informes detallados sobre las asistencias, lo que facilitará la tarea de los preceptores al presentar informes a los profesores.
+
+- Permitirá a la institución obtener estadísticas de presencialidad de manera más eficiente.
+
+- Para los alumnos, la solución propuesta permitirá acceder fácilmente a su estado en cada materia, brindando transparencia y evitando que queden en situación irregular. En resumen.
 
 ## Requisitos
 
@@ -55,7 +63,7 @@ Enumeren los requisitos *(funcionales)* que debe tener el software para resolver
 **Tecnologías del Servidor Local:**
 - Sistema Operativo: [Especificar el sistema operativo, p. ej., Windows, Linux]
 - Servidor Web: Para desplegar el backend y el frontend se utilizara Nginx
-- Servidor de Base de Datos Local: Despliegie de base de datos Mysql
+- Servidor de Base de Datos Local: Despliegue de base de datos Mysql
 
 **Otros Componentes o Tecnologías Relevantes:** Si se dispone de un servidor windows se va a virtualizar con hyper-v.
 
