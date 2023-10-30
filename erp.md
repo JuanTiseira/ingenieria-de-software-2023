@@ -40,13 +40,6 @@ Escriban algunas oraciones que describan cómo la solución de software resolver
 
 - Para los alumnos, la solución propuesta permitirá acceder fácilmente a su estado en cada materia, brindando transparencia y evitando que queden en situación irregular. 
 
-## Requisitos
-
-## Solución propuesta 
-
-Escriban algunas oraciones que describan cómo la solución de software resolverá el problema descrito anteriormente.
- 
-
 # Requisitos
 
 ## Debe tener o estar:
