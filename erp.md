@@ -5,9 +5,9 @@ Escriban algunas oraciones que describan el problema que están tratando de reso
 
 En el instituto el registro diario de asistencias se lleva de forma manual en una planilla, la cual es 
 borrosa, no presenta ninguna informacion util para el preceptor, lo que hace que se pierda mucho tiempo
-y se dificulte el proceso. Como luego estos datos de todas las planillas se vuelcan a un excel de forma
-manual el proceso demanda mucho tiempo y es muy suceptible a errores al no tener variables normalizadas
-y datos que se carguen automaticamente, esto es crucial por que estos datos sirven para ubicar a cada alumno, frente a las correlatividades, ver el esta en que se encuentra el alumno en cada materia, informe que debe ser presentado al profesor para que conozca que alumno puede o no rendir la materia.
+y se dificulte el proceso. Luego estos datos de todas las planillas se vuelcan a un excel de forma
+manual,este proceso demanda mucho tiempo y es muy suceptible a errores al no tener variables normalizadas
+y datos que se carguen automaticamente, esto es crucial por que estos datos sirven para ubicar a cada alumno, frente a las correlatividades, ver el estado en que se encuentra el alumno en cada materia, informe que debe ser presentado al profesor para que conozca que alumno puede o no rendir la materia.
 Ademas cuando un alumno precisa conocer su estado en una materia, el preceptor debe buscar en el excel 
 y calcular el total de asistencias del alumno.
 
@@ -26,6 +26,9 @@ para no quedar irregulares.
 ## Solución propuesta 
 
 Escriban algunas oraciones que describan cómo la solución de software resolverá el problema descrito anteriormente.
+
+- Por medio de un login de usuarios, se contará con una autenticación, para poder tener un seguimiento de quien realizó cambios en el sistema.
+- 
 
 ## Requisitos
 
