@@ -15,19 +15,19 @@
 ```mermaid
 erDiagram
     CARRERA {
-        integer id PK, FK
+        integer id PK
         string descripcion
         boolean estado
     }
     MATERIA {
-        integer id PK, FK
+        integer id PK
         string descripcion
         integer carrera FK
         integer anio
         integer modulo
     }
     ALUMNO {
-        integer id PK, FK
+        integer id PK
         string nombre
         string apellido
         string email
@@ -35,27 +35,27 @@ erDiagram
         integer carrera FK
     }
     ALUMNO-MATERIA{
-        integer id PK, FK
+        integer id PK
         integer alumno FK
         integer materia FK
         integer condicion
     }
     CONDICION{
-        integer id PK, FK
+        integer id PK
         string descripccion
     }
     MODULO{
-        integer id PK, FK
+        integer id PK
         string descripccion
     }
     ASISTENCIA{
-        integer id PK, FK
+        integer id PK
         date fecha
-        integer alumno_materia_id fk
+        integer alumno_materia_id FK
         boolean estado
     }
     ESTADO-ASISTENCIA{
-        integer id PK, FK
+        integer id PK
         string descripccion
     }
     ALUMNO-MATERIA ||--|{ CONDICION : ""
@@ -86,8 +86,8 @@ erDiagram
         boolean estado
     }
     ROLES {
-        integer id PK, FK
-        string descripcion PK, FK
+        integer id PK
+        string descripcion 
     }
 ```
 <br>
@@ -145,8 +145,6 @@ classDiagram
     ASISTENCIA -- USUARIO: 
     USUARIO --> Autenticación: 
     USUARIO --> Sesión: 
-    Autenticación --> USUARIO: 
-    Sesión --> USUARIO: 
     ASISTENCIA ..> CARRERA
     CARRERA -- MATERIA 
 ```
