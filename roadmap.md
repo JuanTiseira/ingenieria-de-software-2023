@@ -82,6 +82,27 @@
 | Alertas de Inasistencia           |     3    |
 | Registro de Tardanzas             |     3    |
 
+## Backlog
+
+### To do
+
+- Registro de Alumno          
+- Asignación de Carrera y Materias          
+- Consulta de Asistencia de Alumno          
+- Gestión de Correlatividades          
+- Generación de Informes Automáticos    
+- Gestión de Ausencias Justificadas     
+- Consideración de Excepciones en la Asistencia                         
+- Registro de Datos de Asignaturas  
+- Gestión de Alumnos Libres        
+- Alertas de Inasistencia          
+- Registro de Tardanzas    
+
+### Done
+
+- Inicio de Sesión y Seguridad
+- Gestión de Asistencia por Materia y Período 
+
 
 
 ## Backlog Iteracion 1
@@ -90,3 +111,12 @@
 |-----------------------------|---------|
 | HU-06: Inicio de Sesion y Seguridad | 3       |
 | HU-03: Gestión de Asistencia por Materia y Período | 5       |
+
+
+## Backlog Iteracion 2
+
+| Historia de Usuario          | Puntaje |
+|-----------------------------|---------|
+| HU-01: Registro de Alumno | 5      |
+| HU-02: Asignación de Carrera y Materias | 3       |
+| HU-03: Consulta de Asistencia de Alumno |    4   |

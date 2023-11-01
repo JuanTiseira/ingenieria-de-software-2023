@@ -90,9 +90,71 @@ erDiagram
         string descripcion PK, FK
     }
 ```
+<br>
 
+### Diagrama de Clases 
+
+```mermaid
+classDiagram
+    class CARRERA {
+        +id: integer
+        +descripcion: string
+        +estado: boolean
+    }
+    class MATERIA {
+        +id: integer
+        +descripcion: string
+        +carrera: CARRERA
+        +anio: integer
+        +modulo: integer
+    }
+    class ALUMNO {
+        +id: integer
+        +nombre: string
+        +apellido: string
+        +email: string
+        +domicilio: string
+        +carrera: CARRERA
+    }
+    class ASISTENCIA {
+        +id: integer
+        +fecha: date
+        +alumno: id
+        +estado: boolean
+        +registrarAsistencia(usuario: USUARIO, fecha: string, materia: MATERIA): boolean
+        +modificarAsistencia(usuario: USUARIO, fecha: string, materia: MATERIA, asistencia: ASISTENCIA): boolean
+        +eliminarAsistencia(asistencia: ASISTENCIA): boolean
+    }
+    class USUARIO {
+        +id: integer
+        +nombre: string
+        +apellido: string
+        +dni: integer
+        +password: string
+        +estado: boolean
+        +rol: string
+    }
+    class Autenticación {
+        +autenticar(nombreUsuario: string, contraseña: string): boolean
+    }
+    class Sesión {
+        +iniciarSesión(usuario: USUARIO): boolean
+        +cerrarSesión(): void
+    }
+    ASISTENCIA ..> ALUMNO: 
+    ASISTENCIA -- USUARIO: 
+    USUARIO --> Autenticación: 
+    USUARIO --> Sesión: 
+    Autenticación --> USUARIO: 
+    Sesión --> USUARIO: 
+    ASISTENCIA ..> CARRERA
+    CARRERA -- MATERIA 
+```
+
+<br>
 
 # Wireframe y caso de uso
+
 ### Wireframe Iniciar Sesión
 ![Ejemplo de Imagen](wireframes/login.jpeg)
 <br>
